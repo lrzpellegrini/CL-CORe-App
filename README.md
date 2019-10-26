@@ -4,7 +4,7 @@ CL CORe App is an *Artificial Vision* application for Android devices that can c
 
 All the inference and training tasks are made on-device, offline and without accelerators. The app actually supports ARM-v8 Android devices only, but we're planning on extending the support to ARM-v7 and Intel devices as well. There are no particular hardware requirements:  1GB+ RAM is recommended as well as 100 MB of free disk space.
 
-You can download it from the release page.
+You can download it from the [release](https://github.com/lrzpellegrini/CL-CORe-App/releases) page.
 
 
 # Source code
