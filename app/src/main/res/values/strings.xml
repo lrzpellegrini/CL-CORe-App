@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CORe</string>
+    <string name="action_clear_data">Clear data</string>
+    <string name="action_about">About</string>
+    <string name="action_gather_images">Gather images</string>
+    <string name="gathering_images_status">Gathering images…</string>
+    <string name="training_status">Training… %.2f%%</string>
+    <string name="invalid_cat_name_title">Invalid category name</string>
+    <string name="invalid_cat_name_message">Please insert a valid category name</string>
+    <string name="insert_new_cat_name_title">Insert new category name</string>
+    <string name="new_cat_confirm_message">Do you really want to learn a new category?</string>
+    <string name="improve_cat_message">Do you really want to improve accuracy for "%s"?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="replace_thumbnail_message">Do you want to replace the existing thumbnail?</string>
+    <string name="preference_license_version">it.mibiolab.clapp.LICENSE_VERSION_KEY</string>
+    <string name="preference_license">it.mibiolab.clapp.LICENSE_KEY</string>
+</resources>

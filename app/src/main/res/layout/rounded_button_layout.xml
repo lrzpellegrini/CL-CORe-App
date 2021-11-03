@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="1dp"
+    android:clickable="false"
+    android:focusable="false">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="@android:color/white"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:elevation="0dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="0dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        android:id="@+id/thumbnail_wrapper"
+        >
+
+        <it.mibiolab.clapp.SquareImageButton
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="@mipmap/core50_cat0_thumb"
+            android:scaleType="fitXY"
+            android:clickable="false"
+            android:focusable="false"
+            />
+
+        <it.mibiolab.clapp.SquareImageButton
+            android:id="@+id/thumbnail_decoration"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="@drawable/button_bg_small_plus"
+            android:scaleType="fitXY"
+            android:clickable="false"
+            android:focusable="false"
+            />
+    </android.support.v7.widget.CardView>
+</LinearLayout>
